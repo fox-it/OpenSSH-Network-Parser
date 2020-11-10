@@ -9,16 +9,14 @@ setup(
     include_package_data=True,
     setup_requires=['setuptools_scm'],
     python_requires='>=2.7, <3', #pynids is not compatible with py3 :(
-    dependency_links=[
-        'git+https://github.com/MITRECND/pynids.git#egg=pynids'
-    ],
     install_requires=[
-        'dissect.cstruct',
+        'dissect.cstruct==1.0.0',
         'psutil',
         'tabulate',
         'gevent',
         'libnacl',
         'cryptography',
+        'pynids @ https://github.com/MITRECND/pynids/tarball/master#egg=pynids-0.6.2'
     ],
     entry_points = {
         'console_scripts': [
