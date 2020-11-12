@@ -1,5 +1,6 @@
 # OpenSSH Network Parser
-Project to decrypt and parse OpenSSH traffic
+Project to decrypt and parse OpenSSH traffic. More information can be found in [this blogpost](https://blog.fox-it.com/2020/11/11/decrypting-openssh-sessions-for-fun-and-profit/).
+
 
 # Usage
 ```
